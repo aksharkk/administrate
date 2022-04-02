@@ -13,7 +13,7 @@ en:
       create:
         success: "%{resource} was successfully created."
       destroy:
-        success: "%{resource} was successfully destroyed."
+        success: "%{resource} was successfully deleted."
       update:
         success: "%{resource} was successfully updated."
     fields:

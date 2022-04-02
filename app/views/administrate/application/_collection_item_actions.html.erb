@@ -11,7 +11,7 @@
     t("administrate.actions.destroy"),
     [namespace, resource],
     class: "text-color-red",
-    method: :delete,
-    data: { confirm: t("administrate.actions.confirm") }
+    method: :delete
+    }
   ) if show_action?(:destroy, resource) %></td>
 <% end %>
